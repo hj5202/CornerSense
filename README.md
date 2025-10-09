@@ -14,7 +14,7 @@ This work can be used freely as long as:
 ## Abstract
 
 ## Overview
-This repository contains the MATLAB implementation for multi-person WiFi sensing using CSI data. The proposed method achieves accurate motion recognition and localization in multi-target scenarios.
+This repository contains the MATLAB implementation for human proximity detection using CSI data. 
 
 ## Requirements
 - MATLAB R2023b or later
