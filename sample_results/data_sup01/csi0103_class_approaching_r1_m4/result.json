@@ -1,0 +1,55 @@
+{
+  "filename": "csi0103_class_approaching_r1_m4",
+  "group": "data_sup01",
+  "status": "ok",
+  "robot_speed_mps": 0.2,
+  "measured_aoa": {
+    "theta_r": 32.0,
+    "theta_u": 38.0
+  },
+  "selected_aoa": {
+    "theta_r": 32.0,
+    "theta_u": 38.0
+  },
+  "calibration_offset_deg": 0.0,
+  "trace_extent_s": [
+    0.0,
+    6.442527
+  ],
+  "packets": 1436,
+  "evaluation": {
+    "Ig": 0.2755256755022204,
+    "tr_min_m": 1.945515727312617,
+    "predicted_motion": "approaching",
+    "motion_correct": true,
+    "gt_motion": "approaching",
+    "gt_region": "R1",
+    "range_eval": "trace_time",
+    "half_tr_min_m": [],
+    "predicted_regions": [
+      "R1"
+    ],
+    "region_correct": true,
+    "both_correct": true,
+    "status": "ok",
+    "G_min_rad": 0.025484371576355337,
+    "half_G_min_rad": []
+  },
+  "diagnostics": {
+    "seg": [
+      0,
+      1111
+    ],
+    "fs": 222.7386862329021,
+    "selected_key_pair": [
+      1,
+      2
+    ],
+    "selected_key_frequency_hz": 1.4033940626735504
+  },
+  "artifacts": {
+    "curve": "data_sup01/csi0103_class_approaching_r1_m4/curve.npz",
+    "plot": "data_sup01/csi0103_class_approaching_r1_m4/metrics.png",
+    "vector_plot": "data_sup01/csi0103_class_approaching_r1_m4/metrics.svg"
+  }
+}

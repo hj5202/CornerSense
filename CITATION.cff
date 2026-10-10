@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Please cite the CornerSense paper when using this code or data."
+title: "CornerSense Python reproduction examples"
+type: software
+license: CC-BY-NC-4.0
+authors:
+  - family-names: He
+    given-names: Jing
+  - family-names: Zhang
+    given-names: Rui
+  - family-names: Wang
+    given-names: Qijia
+  - family-names: Kong
+    given-names: Ruiqi
+  - family-names: Chen
+    given-names: He
+preferred-citation:
+  type: article
+  title: "CornerSense: Virtual Path-augmented WiFi Sensing for Human Proximity Detection Around Corners on Mobile Robots"
+  authors:
+    - family-names: He
+      given-names: Jing
+    - family-names: Zhang
+      given-names: Rui
+    - family-names: Wang
+      given-names: Qijia
+    - family-names: Kong
+      given-names: Ruiqi
+    - family-names: Chen
+      given-names: He
+  journal: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
+  volume: "9"
+  issue: "4"
+  number: "181"
+  year: 2025
+  month: 12
+  doi: 10.1145/3770699
+  issn: 2474-9567

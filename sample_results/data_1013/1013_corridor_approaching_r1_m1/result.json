@@ -1,0 +1,55 @@
+{
+  "filename": "1013_corridor_approaching_r1_m1",
+  "group": "data_1013",
+  "status": "ok",
+  "robot_speed_mps": 0.2,
+  "measured_aoa": {
+    "theta_r": -14.0,
+    "theta_u": -26.0
+  },
+  "selected_aoa": {
+    "theta_r": -2.0,
+    "theta_u": -14.0
+  },
+  "calibration_offset_deg": -12.0,
+  "trace_extent_s": [
+    0.0,
+    5.375586
+  ],
+  "packets": 4763,
+  "evaluation": {
+    "Ig": 0.4592213277857242,
+    "tr_min_m": 2.5841031606155833,
+    "predicted_motion": "approaching",
+    "motion_correct": true,
+    "gt_motion": "approaching",
+    "gt_region": "R1",
+    "range_eval": "trace_time",
+    "half_tr_min_m": [],
+    "predicted_regions": [
+      "R1"
+    ],
+    "region_correct": true,
+    "both_correct": true,
+    "status": "ok",
+    "G_min_rad": 0.03384924840866111,
+    "half_G_min_rad": []
+  },
+  "diagnostics": {
+    "seg": [
+      728,
+      4422
+    ],
+    "fs": 885.8569093676484,
+    "selected_key_pair": [
+      0,
+      1
+    ],
+    "selected_key_frequency_hz": -2.15828700170786
+  },
+  "artifacts": {
+    "curve": "data_1013/1013_corridor_approaching_r1_m1/curve.npz",
+    "plot": "data_1013/1013_corridor_approaching_r1_m1/metrics.png",
+    "vector_plot": "data_1013/1013_corridor_approaching_r1_m1/metrics.svg"
+  }
+}

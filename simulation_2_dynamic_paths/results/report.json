@@ -1,0 +1,51 @@
+{
+  "segment_samples": [
+    0,
+    3200
+  ],
+  "sample_rate_hz": 400.0,
+  "stage1_beat_match": {
+    "frequency_hz": 2.625,
+    "phase_lock": 0.9982624492150384,
+    "phase_offset_rad": -1.6055536522111402,
+    "sign": 1
+  },
+  "dominant_frequency_hz": {
+    "augmented_projection": 1.75,
+    "raw_projection": 2.625
+  },
+  "processing_settings": {
+    "band_hz": [
+      0.8,
+      8.0
+    ],
+    "smoothing_s": 0.2
+  },
+  "measured_aoa_deg": {
+    "theta_r": 30.0,
+    "theta_u": 38.0
+  },
+  "virtual_amplitude": 2.7386366988854274,
+  "virtual_phase_rad": 0.7853981633974482,
+  "target_antenna_one_based": 1,
+  "target_tone_one_based": 15,
+  "display_definition": "score * loading[tone], centered and divided by its own sqrt(2)*RMS; sign and phase unchanged",
+  "raw_control_definition": "Same CSI segment and CornerSense ma2d, bandlimit_t, stage_pca applied to raw power",
+  "augmented_vs_truth": {
+    "correlation": 0.9575243183514885,
+    "rmse": 0.20588206623808614
+  },
+  "augmented_central_60_percent": {
+    "correlation": 0.9688126124794512,
+    "rmse": 0.17807715753431444
+  },
+  "raw_vs_truth": {
+    "correlation": -0.4002837909076013,
+    "rmse": 1.1815542350775965
+  },
+  "raw_central_60_percent": {
+    "correlation": -0.36580552920335196,
+    "rmse": 1.1618350479172181
+  },
+  "truth_definition": "cos(arg(H_reference)-arg(Ha)) = cos(phi_reference+phi_a), with H_reference=A*exp(-j*phi_reference)"
+}

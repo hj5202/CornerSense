@@ -1,0 +1,83 @@
+{
+  "filename": "1013_corridor_movingaway_all_m1",
+  "group": "data_1013",
+  "status": "ok",
+  "robot_speed_mps": 0.2,
+  "measured_aoa": {
+    "theta_r": -10.0,
+    "theta_u": -22.0
+  },
+  "selected_aoa": {
+    "theta_r": 2.0,
+    "theta_u": -10.0
+  },
+  "calibration_offset_deg": -12.0,
+  "trace_extent_s": [
+    0.0,
+    7.065603
+  ],
+  "packets": 5384,
+  "evaluation": {
+    "Ig": -0.15114895372456227,
+    "tr_min_m": 0.8153190048445687,
+    "predicted_motion": "moving_away",
+    "motion_correct": true,
+    "gt_motion": "moving_away",
+    "gt_region": "temporal_half",
+    "range_eval": "trace_time",
+    "half_tr_min_m": [
+      0.9537944670841841,
+      0.8153190048445687
+    ],
+    "predicted_regions": [
+      "R1",
+      "R2"
+    ],
+    "region_correct": true,
+    "both_correct": true,
+    "status": "ok",
+    "raw_time_midpoint_s": 3.5328015,
+    "half_metric_counts": [
+      1110,
+      2428
+    ],
+    "metric_time_extent_s": [
+      2.067898,
+      6.202689
+    ],
+    "trace_time_extent_s": [
+      0.0,
+      7.065603
+    ],
+    "half_observed_span_s": [
+      1.463876,
+      2.6698340000000003
+    ],
+    "expected_regions": [
+      "R1",
+      "R2"
+    ],
+    "G_min_rad": 0.010679889235038053,
+    "half_G_min_rad": [
+      0.012493783661271528,
+      0.010679889235038053
+    ]
+  },
+  "diagnostics": {
+    "seg": [
+      1699,
+      5237
+    ],
+    "fs": 761.8599573171603,
+    "selected_key_pair": [
+      1,
+      2
+    ],
+    "selected_key_frequency_hz": 0.8613453446208708
+  },
+  "artifacts": {
+    "curve": "data_1013/1013_corridor_movingaway_all_m1/curve.npz",
+    "plot": "data_1013/1013_corridor_movingaway_all_m1/metrics.png",
+    "vector_plot": "data_1013/1013_corridor_movingaway_all_m1/metrics.svg"
+  }
+}

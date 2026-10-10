@@ -1,0 +1,48 @@
+{
+  "sample_rate_hz": 400,
+  "duration_s": 8,
+  "carrier_hz": 5320000000,
+  "antenna_offsets_m": [
+    0,
+    0.025,
+    0.05
+  ],
+  "receiver_bandwidth_hz": 3500000,
+  "robot_speed_mps": 0,
+  "noise_std": 0,
+  "seed": 173,
+  "paths": [
+    {
+      "name": "reference",
+      "length_m": 20,
+      "rate_mps": -0.1,
+      "amplitude": 1,
+      "angle_deg": 30,
+      "phase_rad": 0.5
+    },
+    {
+      "name": "secondary",
+      "length_m": 22,
+      "rate_mps": -0.25,
+      "amplitude": 0.3,
+      "angle_deg": 60,
+      "phase_rad": 1
+    },
+    {
+      "name": "third",
+      "length_m": 24,
+      "rate_mps": 0.05,
+      "amplitude": 0.15,
+      "angle_deg": -30,
+      "phase_rad": 1.5
+    },
+    {
+      "name": "fourth",
+      "length_m": 26,
+      "rate_mps": -0.4,
+      "amplitude": 0.05,
+      "angle_deg": -60,
+      "phase_rad": 2
+    }
+  ]
+}

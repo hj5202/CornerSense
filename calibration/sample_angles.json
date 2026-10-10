@@ -1,0 +1,9 @@
+{
+  "method": "fixed_session_offset",
+  "offsets_deg": {
+    "0319_data": -3,
+    "0325_data": 22,
+    "data_1013": -12,
+    "data_sup01": 0
+  }
+}

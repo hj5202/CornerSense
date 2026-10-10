@@ -1,0 +1,83 @@
+{
+  "filename": "csi_0325_class_approaching_all_m2",
+  "group": "0325_data",
+  "status": "ok",
+  "robot_speed_mps": 0.2,
+  "measured_aoa": {
+    "theta_r": 30.0,
+    "theta_u": 64.0
+  },
+  "selected_aoa": {
+    "theta_r": 8.0,
+    "theta_u": 42.0
+  },
+  "calibration_offset_deg": 22.0,
+  "trace_extent_s": [
+    0.0,
+    9.527648
+  ],
+  "packets": 8855,
+  "evaluation": {
+    "Ig": 0.5799109916519242,
+    "tr_min_m": 0.6268564463546829,
+    "predicted_motion": "approaching",
+    "motion_correct": true,
+    "gt_motion": "approaching",
+    "gt_region": "temporal_half",
+    "range_eval": "trace_time",
+    "half_tr_min_m": [
+      0.6268564463546829,
+      1.1147134300824648
+    ],
+    "predicted_regions": [
+      "R2",
+      "R1"
+    ],
+    "region_correct": true,
+    "both_correct": true,
+    "status": "ok",
+    "raw_time_midpoint_s": 4.763824,
+    "half_metric_counts": [
+      4571,
+      2272
+    ],
+    "metric_time_extent_s": [
+      0.0,
+      7.067693
+    ],
+    "trace_time_extent_s": [
+      0.0,
+      9.527648
+    ],
+    "half_observed_span_s": [
+      4.762745,
+      2.303559
+    ],
+    "expected_regions": [
+      "R2",
+      "R1"
+    ],
+    "G_min_rad": 0.008211212266067398,
+    "half_G_min_rad": [
+      0.008211212266067398,
+      0.014601666208381364
+    ]
+  },
+  "diagnostics": {
+    "seg": [
+      0,
+      6843
+    ],
+    "fs": 929.2954567591079,
+    "selected_key_pair": [
+      0,
+      1
+    ],
+    "selected_key_frequency_hz": -0.8148140787015412
+  },
+  "artifacts": {
+    "curve": "0325_data/csi_0325_class_approaching_all_m2/curve.npz",
+    "plot": "0325_data/csi_0325_class_approaching_all_m2/metrics.png",
+    "vector_plot": "0325_data/csi_0325_class_approaching_all_m2/metrics.svg"
+  }
+}

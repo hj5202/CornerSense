@@ -1,0 +1,21 @@
+SPDX-License-Identifier: CC-BY-NC-4.0
+
+This work is licensed under a Creative Commons Attribution-NonCommercial
+4.0 International License.
+
+Copyright (c) 2025 held by the owner/author(s).
+
+The project authors' code, documentation, real-data samples, synthetic data,
+and result figures in this repository are made available under CC BY-NC 4.0,
+unless a file identifies different third-party terms.
+
+License deed: https://creativecommons.org/licenses/by-nc/4.0/
+Full legal terms: https://creativecommons.org/licenses/by-nc/4.0/legalcode.en
+
+Attribution is required, changes must be indicated, and use is limited to
+non-commercial purposes under the license terms. This notice is a license
+grant by reference; the full legal terms at the link above govern. It does
+not replace or modify licenses of third-party software or material.
+
+Associated paper: ACM 2474-9567/2025/12-ART181
+DOI: https://doi.org/10.1145/3770699
